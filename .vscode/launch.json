@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio12",
+            "request": "launch",
+            "mainClass": "Recursividad.Ejercicio12",
+            "projectName": "Taller-Recursividad_dac15cf9"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio11",
+            "request": "launch",
+            "mainClass": "Recursividad.Ejercicio11",
+            "projectName": "Taller-Recursividad_dac15cf9"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio10",
+            "request": "launch",
+            "mainClass": "Recursividad.Ejercicio10",
+            "projectName": "Taller-Recursividad_dac15cf9"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8",
+            "request": "launch",
+            "mainClass": "Recursividad.Ejercicio8",
+            "projectName": "Taller-Recursividad_dac15cf9"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio6",
             "request": "launch",
             "mainClass": "Recursividad.Ejercicio6",
