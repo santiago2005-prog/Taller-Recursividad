@@ -2,13 +2,13 @@ package Recursividad;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio5 {
 
-    public static int factorial(int numero) {
-        if (numero == 0) {
+    public static int suma(int numero) {
+        if (numero == 1) {
             return 1;
         }
-        return numero * factorial(numero - 1);
+        return numero + suma(numero - 1);
     }
 
     public static void main(String[] args) {
@@ -17,7 +17,9 @@ public class Ejercicio1 {
         System.out.print("Ingrese un número entero: ");
         int numero = sc.nextInt();
 
-        System.out.println("El factorial de " + numero + " es: " + factorial(numero));
+        int resultado = suma(numero);
+
+        System.out.println("Sumatoria: " + resultado);
 
     }
 }
